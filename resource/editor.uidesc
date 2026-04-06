@@ -1,0 +1,156 @@
+{
+	"vstgui-ui-description": {
+		"version": "1",
+		"bitmaps": {},
+		"fonts": {
+			"big": {
+				"font-name": "Cascadia Code",
+				"size": "48"
+			},
+			"small": {
+				"font-name": "Cascadia Code",
+				"size": "12"
+			}
+		},
+		"colors": {
+			"background": "#07464aff",
+			"highlight": "#64e6f0ff",
+			"window": "#0b6d74ff"
+		},
+		"gradients": {},
+		"control-tags": {
+			"kCentsOffset": "67"
+		},
+		"custom": {
+			"FocusDrawing": {},
+			"VST3Editor": {
+				"Path": "C:\\CLion_SDKs\\Example_Project\\genTest\\cmake-build-debug-visual-studio\\VST3\\Debug\\genTest.vst3\\Contents\\Resources\\editor.uidesc"
+			},
+			"UIGridController": {
+				"Grids": "1x 1,5x 5,10x 10,12x 12,15x 15",
+				"Size": "10, 10"
+			},
+			"UITemplateController": {
+				"SelectedTemplate": "view"
+			},
+			"UIEditController": {
+				"EditViewScale": "1",
+				"EditorSize": "0, 0, 500, 545",
+				"SplitViewSize_0_0": "0.7495183044315992804129678006574977189302",
+				"SplitViewSize_0_1": "0.2119460500963391003104163701209472492337",
+				"SplitViewSize_1_0": "0.4797687861271676124097496085596503689885",
+				"SplitViewSize_1_1": "0.5105973025048169411377330106915906071663",
+				"SplitViewSize_2_0": "0.6400000000000000133226762955018784850836",
+				"SplitViewSize_2_1": "0.3499999999999999777955395074968691915274",
+				"TabSwitchValue": "6",
+				"Version": "1"
+			},
+			"UIAttributesController": {},
+			"UIViewCreatorDataSource": {
+				"SelectedRow": "9"
+			},
+			"UITagsDataSource": {
+				"SelectedRow": "-1"
+			},
+			"UIColorsDataSource": {
+				"SelectedRow": "2"
+			},
+			"UIGradientsDataSource": {
+				"SelectedRow": "-1"
+			},
+			"UIBitmapsDataSource": {
+				"SelectedRow": "-1"
+			},
+			"UIFontsDataSource": {
+				"SelectedRow": "1"
+			}
+		},
+		"templates": {
+			"view": {
+				"attributes": {
+					"background-color": "background",
+					"background-color-draw-style": "filled and stroked",
+					"class": "CViewContainer",
+					"mouse-enabled": "true",
+					"opacity": "1",
+					"origin": "0, 0",
+					"size": "300, 300",
+					"transparent": "false",
+					"wants-focus": "false"
+				},
+				"children": {
+					"CParamDisplay": {
+						"attributes": {
+							"back-color": "window",
+							"background-offset": "0, 0",
+							"class": "CParamDisplay",
+							"control-tag": "kCentsOffset",
+							"font": "small",
+							"font-antialias": "true",
+							"font-color": "highlight",
+							"frame-color": "window",
+							"frame-width": "1",
+							"opacity": "1",
+							"origin": "110, 165",
+							"round-rect-radius": "10",
+							"shadow-color": "~ RedCColor",
+							"size": "80, 30",
+							"style-3D-in": "false",
+							"style-3D-out": "false",
+							"style-no-draw": "false",
+							"style-no-frame": "false",
+							"style-no-text": "false",
+							"style-round-rect": "true",
+							"style-shadow-text": "false",
+							"text-alignment": "center",
+							"text-inset": "0, 0",
+							"text-rotation": "0",
+							"text-shadow-offset": "1, 1",
+							"transparent": "false",
+							"value-precision": "2",
+							"wants-focus": "false",
+							"wheel-inc-value": "0.1"
+						}
+					},
+					"CTextLabel": {
+						"attributes": {
+							"back-color": "window",
+							"background-offset": "0, 0",
+							"class": "CTextLabel",
+							"custom-view-name": "noteLabel",
+							"default-value": "0.5",
+							"font": "big",
+							"font-antialias": "true",
+							"font-color": "highlight",
+							"frame-color": "window",
+							"frame-width": "1",
+							"max-value": "1",
+							"min-value": "0",
+							"mouse-enabled": "true",
+							"opacity": "1",
+							"origin": "100, 50",
+							"round-rect-radius": "10",
+							"shadow-color": "~ RedCColor",
+							"size": "100, 100",
+							"style-3D-in": "false",
+							"style-3D-out": "false",
+							"style-no-draw": "false",
+							"style-no-frame": "false",
+							"style-no-text": "false",
+							"style-round-rect": "true",
+							"style-shadow-text": "false",
+							"text-alignment": "center",
+							"text-inset": "0, 0",
+							"text-rotation": "0",
+							"text-shadow-offset": "1, 1",
+							"transparent": "false",
+							"value-precision": "2",
+							"wants-focus": "false",
+							"wheel-inc-value": "0.1"
+						}
+					}
+				}
+			}
+		}
+	}
+}
