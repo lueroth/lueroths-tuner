@@ -17,7 +17,6 @@ namespace fno {
     class FindNote_n_Offset {
     private:
         double refFreq_ {440.0};
-        [[nodiscard]] double calcCents(double freq) const;
         yin::YINPitchDetection detection{4096, 44100.0f};
 
     public:
